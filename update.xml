@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+    <id>niplpohhojmnnoamielkphahknmndmhh</id>
+    <update_url>https://crisuuuuuu.github.io/Owl-s-eye/Owl_Extension.crx</update_url>
+    <name>Owl's Eye</name>
+    <description>Owl's eye es una extensión diseñada para proteger y supervisar la navegación en cualquier dispositivo. Bloquea automáticamente páginas no apropiadas y garantiza un entorno seguro en Windows, macOS, Linux y ChromeOS. ¡Mantén el control con Owl's eye! 🚀🔒. Hecho por Maxcheto</description>
+    <version>1.9</version>
+    <permissions>
+        <permission>tabs</permission>
+        <permission>storage</permission>
+        <permission>scripting</permission>
+        <permission>webRequest</permission>
+        <permission>notifications</permission>
+        <permission>webNavigation</permission>
+    </permissions>
+</app>
