@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Owl's eye",
+  "version": "1.9",
+  "description": "Owl's eye es una extensión diseñada para proteger y supervisar la navegación en cualquier dispositivo. Bloquea automáticamente páginas no apropiadas y garantiza un entorno seguro en Windows, macOS, Linux y ChromeOS. ¡Mantén el control con Owl's eye! 🚀🔒. Hecho por Maxcheto",
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "webRequest",
+    "notifications",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": ";)"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDPGak5aGukVc6sWemh3tj1O7DkzYxn8a+MQ+dRr8pMO46S9jR5djJRoGRdwRXJh1sWpVym9YBrFuaZN9YTdMOcKhXTpa+Gpv8NKhkrac1DlzZ7DYfqMRGfHXiCUIlxyrXXXZZny+OOXg72qCIyZcQpHp8CSyHRSAG7usZrHBTCZgfqrv/BOjeGzX3mh5+x/XR6UcwPSiN519fyGMk23hDc9E1ihM+nk4ltZMuD3I2ugrHIO+8Nco75toHJvYZT0+zld4DnCPPBxW2dnHX39CIhTlDW20bJFUx0Yy3tGnEsVUoMgGupUfvZ5EXBTQFfxgGQZHKNUunvLaxwTQ/Bwy7fAgMBAAECggEACbHt1h4pS9wofLEI2ucPyQsuUMe+lu8dhLd5EL3l/oObPQ4Bjt4VpPSZPjpXxsNrZDgBil9bz6eWy/1tLCP/NERUGUBcYzVWI0uhOgMN9OgTSNdtUW1SodxDU/ZpOMaAlMBw1hMZaATHNozQbQOOl04zq2vQ/XcdfahUuZbq8d63P4+odQ9/2L/8T2uqMHfWauoE6mlsGp+LIuKSF4TkrRV8ncxPFVPWV3rDCo3BCryni4MgDzSm7VGPL3i6Iz4DAHOj3VEsK0gflU+ZUIb02YFWKxdsFwh5Wi2rymFCOlXmklYBpZhSuEGo46vCX/X/ljNk3nM2lSnPOwSL/muYYQKBgQD9jkkmtyu2PhqD8/cUWpqNG/DGuByDZeMBnskYvwW3hxOoBkpywlc3GUxHJ+rBTJx5Omg2OW2DJg7LILuGNZizXkv4rL3qsH1SJjpy6WPN6vCP/294dcpoDdMePvxwxnSNlkF4+FbahNpSQgyeVFM++s63UuDbk2R9aYyQvfMMAwKBgQDRGLv1WX8+LQKojsUlMoCzvSHz8tpOooE06bK8pKeaQVZS+rDG5ajS4ts6JySQmNRXPys0divrSW9Dwgw2hlq+1GI+Ypetk8Kx4EEVZ1LM/3Ij71HXIdkLkF1/fPc7166YZSztDO/Bfg+HlDmKc+LxoQSetEOTgCJEUYjW4c2Q9QKBgENGtpgkL9/6GHT8jYmEBM/+IuPHRCGFLjdm1zrOrIimuYtyp9xNPnDrMHcM21gQqM/ttGr2z9zlgzVYaQlSPUMSeRvxUa7sx0O9yvJkhMvFU7EReJVAw8TaLjMvSTHvJkvPG24qjnkKmRcMWWbFPxVN3P19axY3xIkWMWrSS6PbAoGBAMCldj8Ftws08xcTeyXbUuLG5apZ3LLIXBzBGBFf7p9bhUoseIS4AYRSyMLaX4Dtne3IYGkUW0CLRvz5osD1plPdX6q0saSV17KEt9IdgRcoXyQmkZORNuTFnK8iFrNG8zCrPuokmhz+pRY4BY+/V59hx9zknsIeMvQY3ueD4R6lAoGBAL96+O4pAnwnZEsFNOXAeFpNZJt8ViQLBwo74U0cqo2wOhSi5ZoWWTPKhgKJGFiMXaw7NimESyTH3yoLLy82x17F72QAbY17buSAWtIrrJJT4zwpeqGAzaHve2mQE8+VS+fjSZ21dRIPAVjbto9duPwFTN4L+UdNIDb1r+UCsO98"
+}

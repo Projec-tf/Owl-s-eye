@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Owl's eye - Capturas</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #c5c5c5;
+            margin: 0;
+            padding: 20px;
+        }
+
+        #loginForm {
+            max-width: 1500px;
+            margin: 100px auto;
+            padding: 30px;
+            background: rgb(255, 255, 255);
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        #loginForm h2 {
+            color: #000000;
+            margin-bottom: 20px;
+        }
+
+        #password {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        #login {
+            background-color: #000000;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        #login:hover {
+            background-color:rgb(4, 32, 48);
+        }
+
+        #captures {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #captures h2 {
+            color: #000607;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .screenshot {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .screenshot p {
+            color: #666;
+            margin: 5px 0;
+            font-size: 14px;
+        }
+
+        .screenshot img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            #loginForm {
+                margin: 50px auto;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="loginForm">
+        <h2>Owl's eye</h2>
+        <h3>Aviso Esta accediendo en una parte de la extension que esta oculta para que solo los Administradores/Tutores/Padres vean la actividad hecha en este dispositivo </h3>
+        <input type="password" id="password" placeholder="Introduce el codigo de aceso" />
+        <button id="login">Iniciar Sesion</button>
+    </div>
+    <div id="captures" class="hidden">
+        <h2>Owl's eye</h2>
+        <div id="screenshotContainer"></div>
+    </div>
+    <script src="capturas.js"></script>
+</body>
+</html>
